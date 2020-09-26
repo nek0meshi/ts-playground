@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  node:
+    image: node:14-alpine
+    ports:
+      - 3000:3000
+    volumes:
+      - ./work:/work:cached
+    tty: true
+    working_dir: /work

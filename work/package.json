@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "tsc": "tsc",
+    "watch": "tsc -w",
+    "execute": "node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
